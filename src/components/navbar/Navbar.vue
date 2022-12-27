@@ -18,14 +18,14 @@
         <span class="app-navbar-center__text mr-2">{{ t('navbar.messageUs') }}</span>
         <a
           class="app-navbar-center__mail mr-2"
-          href="mailto:hello@epicmax.co"
+          href="mailto:qwer3@kakako.com"
           target="_blank"
           :style="{ color: colors.primary }"
         >
-          hello@epicmax.co
+          qwer3@kakako.com
         </a>
         <va-button
-          href="https://github.com/epicmaxco/vuestic-admin"
+          href="https://github.com/wiv33"
           color="#000000"
           class="app-navbar-center__github-button"
           icon="github"

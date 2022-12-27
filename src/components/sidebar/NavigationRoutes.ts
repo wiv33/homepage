@@ -227,5 +227,19 @@ export default {
         },
       ],
     },
+    {
+      name: 'public',
+      displayName: 'menu.pages',
+      meta: {
+        icon: 'vuestic-iconset-files',
+      },
+      disabled: true,
+      children: [
+        {
+          name: 'resume',
+          displayName: 'menu.resume',
+        },
+      ],
+    },
   ] as INavigationRoute[],
 }

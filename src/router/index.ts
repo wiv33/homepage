@@ -6,6 +6,7 @@ import Page404Layout from '../layouts/Page404Layout.vue'
 
 import RouteViewComponent from '../layouts/RouterBypass.vue'
 import UIRoute from '../pages/admin/ui/route'
+import PublicLayout from '../layouts/PublicLayout.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -206,6 +207,17 @@ const routes: Array<RouteRecordRaw> = [
         name: 'not-found-large-text',
         path: '/pages/not-found-large-text',
         component: () => import('../pages/404-pages/VaPageNotFoundLargeText.vue'),
+      },
+    ],
+  },
+  {
+    path: '/public',
+    component: PublicLayout,
+    children: [
+      {
+        name: 'resume',
+        path: 'resume',
+        component: () => import('../pages/public/Resume.vue'),
       },
     ],
   },

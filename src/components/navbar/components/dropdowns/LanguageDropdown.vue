@@ -33,6 +33,10 @@
     {
       options: () => [
         {
+          code: 'kr',
+          name: 'korea',
+        },
+        {
           code: 'gb',
           name: 'english',
         },
